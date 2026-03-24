@@ -1,0 +1,25 @@
+{
+  "name": "kxdex-contracts",
+  "version": "1.0.0",
+  "description": "科信链上交易系统智能合约",
+  "scripts": {
+    "compile": "bash scripts/compile_contracts.sh",
+    "deploy": "bash scripts/deploy_contracts.sh",
+    "test": "bash scripts/test_contracts.sh",
+    "init": "bash scripts/init.sh",
+    "health": "bash scripts/health_check.sh",
+    "update-addresses": "bash scripts/update_addresses.sh"
+  },
+  "keywords": [
+    "blockchain",
+    "fisco-bcos",
+    "smart-contracts",
+    "ticket-trading",
+    "defi"
+  ],
+  "author": "Ray",
+  "license": "MIT",
+  "devDependencies": {
+    "solc": "^0.8.0"
+  }
+}

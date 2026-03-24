@@ -1,0 +1,31 @@
+{
+  "blockchain": {
+    "node_url": "http://192.168.120.32:20200",
+    "chain_id": 1,
+    "group_id": "group0"
+  },
+  "services": {
+    "user_service": {
+      "host": "localhost",
+      "port": 5001
+    },
+    "asset_service": {
+      "host": "localhost",
+      "port": 5002
+    },
+    "matching_engine": {
+      "host": "localhost",
+      "port": 8081
+    },
+    "settlement_service": {
+      "host": "localhost",
+      "port": 8083
+    }
+  },
+  "database": {
+    "host": "localhost",
+    "port": 3306,
+    "user": "root",
+    "password": "Sun-Flower0914"
+  }
+}

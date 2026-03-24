@@ -1,0 +1,126 @@
+{
+  "0x7b5f10c7559a513fe1242c08dbb6f41e5102e2f6" : {
+    "name" : "bank2",
+    "role" : "bank"
+  },
+  "0x15e6e6b54b153451a724343238f877da8014959e" : {
+    "name" : "消费者",
+    "role" : "consumer"
+  },
+  "0x6470135a9ee59b9416a4ea7af51ba6b5444deff7" : {
+    "name" : "银行1",
+    "role" : "bank"
+  },
+  "0x3ec6d0b6b5e2cb57b56807365e429990d63ccaee" : {
+    "name" : "交易所A",
+    "role" : "exchange"
+  },
+  "0x10bc24594ced6e46940983c45b6a054f542c48b3" : {
+    "name" : "做市商B",
+    "role" : "market_maker"
+  },
+  "0xe431e16945e51ed6df039fe249727ad24c03fe40" : {
+    "name" : "做市商B",
+    "role" : "market_maker"
+  },
+  "0xaf6d614ea4ea27b6f5e948861bb4bf8bbbc832ea" : {
+    "name" : "交易所",
+    "role" : "exchange"
+  },
+  "0x2cecbd074da66a615fd55183778bb206af2e5c9f" : {
+    "name" : "监管",
+    "role" : "regulator"
+  },
+  "0x95d748d348931a2553a16c9173d78aa4b4111ed5" : {
+    "name" : "景区1",
+    "role" : "scenic"
+  },
+  "0xf5e5fd8db3ba48f602619b871e41561954fb312f" : {
+    "name" : "ADMIN",
+    "role" : "admin"
+  },
+  "0x0c201ced9c3d34d8d988cea2e320b02f2f2a1902" : {
+    "name" : "bank1",
+    "role" : "bank"
+  },
+  "0xbe33c977872875c90611489c9786754822834ed5" : {
+    "name" : "marketMaker1",
+    "role" : "market_maker"
+  },
+  "0xea6a5771222c4670cdf0c63d6d4dba4e9040bdce" : {
+    "name" : "bb",
+    "role" : "bank"
+  },
+  "0x36e6e65a283ad7d6454b627c5591a1ad4d26638f" : {
+    "name" : "new_bank",
+    "role" : "bank"
+  },
+  "0xc6ba31bc1b872d8ecae5ebe969d50c426e83b3f8" : {
+    "name" : "new_marketMaker",
+    "role" : "market_maker"
+  },
+  "0xe733e18efa2fa0b0e69d8d3f8d822d506afb8b11" : {
+    "name" : "new_阿勒泰",
+    "role" : "scenic"
+  },
+  "0x660a2c3e113a949d2592e9a672563ac377b81245" : {
+    "name" : "景区x",
+    "role" : "scenic"
+  },
+  "0xdf5cc220c27d9a50404b960d0e1436f1fc39e075" : {
+    "name" : "bank4",
+    "role" : "bank"
+  },
+  "0x953773b4424fb9e71e24c6f08d57242c01e3b5ad" : {
+    "name" : "bb1",
+    "role" : "bank"
+  },
+  "0x8abe15f233f29ae5882c282dd482702892511313" : {
+    "name" : "jq1",
+    "role" : "scenic"
+  },
+  "0x50522b10c9d59ca150a23b74ca9587e707c83cdc" : {
+    "name" : "bbb1",
+    "role" : "bank"
+  },
+  "0xa36b01dfae11d478e048e2ec50af9106c62c0bae" : {
+    "name" : "bbbb1",
+    "role" : "bank"
+  },
+  "0x5aeb7baee8ec5dd567f85d830a51deba2653550d" : {
+    "name" : "abank1",
+    "role" : "bank"
+  },
+  "0xb817c41dfb684b90a26af58350ad1ecaac970c45" : {
+    "name" : "amm1",
+    "role" : "market_maker"
+  },
+  "0xe60bd22b72203cdfa2369d381a183f2499c4f269" : {
+    "name" : "mm1",
+    "role" : "market_maker"
+  },
+  "0x9b158bc3b1d790b3a406c84e8cda3df8e896104d" : {
+    "name" : "test-bank",
+    "role" : "bank"
+  },
+  "0xef2f72a87398fed6ed51c9613db09c81c6857696" : {
+    "name" : "test-bank2",
+    "role" : "bank"
+  },
+  "0x3c76d1a1eada743db0e720fe2cfe8fe0f310db33" : {
+    "name" : "test-bank3",
+    "role" : "bank"
+  },
+  "0xe2d2523132337ad204bad1688540bbb0ea63aa2e" : {
+    "name" : "test-bank-new",
+    "role" : "bank"
+  },
+  "0x91b0a7f87fda066cc20db178409e631d0e49771f" : {
+    "name" : "test-bank-v2",
+    "role" : "bank"
+  },
+  "0x2c70f05d98c33f593200d27439a497ea42cf2d4d" : {
+    "name" : "test-mm",
+    "role" : "market_maker"
+  }
+}

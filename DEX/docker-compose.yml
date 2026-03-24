@@ -1,0 +1,68 @@
+version: '3.8'
+
+services:
+  mysql:
+    image: mysql:8.0
+    container_name: fisco-mysql
+    environment:
+      MYSQL_ROOT_PASSWORD: password
+      MYSQL_DATABASE: exchange_users
+    ports:
+      - "3306:3306"
+    volumes:
+      - mysql-data:/var/lib/mysql
+
+  user-service:
+    build:
+      context: ./python-services/user-service
+      dockerfile: Dockerfile
+    container_name: fisco-user-service
+    ports:
+      - "5001:5001"
+    environment:
+      DATABASE_URL: mysql://root:password@mysql/exchange_users
+      SECRET_KEY: your-secret-key
+    depends_on:
+      - mysql
+
+  asset-service:
+    build:
+      context: ./python-services/asset-service
+      dockerfile: Dockerfile
+    container_name: fisco-asset-service
+    ports:
+      - "5002:5002"
+    environment:
+      DATABASE_URL: mysql://root:password@mysql/exchange_assets
+    depends_on:
+      - mysql
+
+  matching-engine:
+    build:
+      context: ./java-services/matching-engine
+      dockerfile: Dockerfile
+    container_name: fisco-matching-engine
+    ports:
+      - "8081:8081"
+    environment:
+      SPRING_DATASOURCE_URL: jdbc:mysql://mysql:3306/exchange_matching
+      SPRING_DATASOURCE_USERNAME: root
+      SPRING_DATASOURCE_PASSWORD: Sun-Flower0914
+    depends_on:
+      - mysql
+
+  settlement-service:
+    build:
+      context: ./java-services/settlement-service
+      dockerfile: Dockerfile
+    container_name: fisco-settlement-service
+    ports:
+      - "8083:8083"
+    environment:
+      BLOCKCHAIN_NODE_URL: http://192.168.120.32:20200
+      BLOCKCHAIN_GROUP_ID: group0
+    depends_on:
+      - mysql
+
+volumes:
+  mysql-data:

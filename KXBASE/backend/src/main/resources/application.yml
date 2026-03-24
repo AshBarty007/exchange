@@ -1,0 +1,30 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: wallet-backend
+  security:
+    user:
+      name: admin
+      password: admin123
+kx:
+  fisco:
+    group: group0
+    peers:
+      # - 172.17.0.1:20200
+      - 192.168.120.32:20200
+    # cert-path: /app/sdk
+    use-sm-crypto: false
+    disable-ssl: false
+    default-private-key: ""
+    cert-path: classpath:sdk
+    contracts-file: classpath:deployed-contracts.json
+    test-wallet-dir: classpath:accounts
+    admin-address: "0xf5e5fd8db3ba48f602619b871e41561954fb312f"
+  webase-sign:
+    url: http://127.0.0.1:5004/WeBASE-Sign
+    app-id: kxdex
+    encrypt-type: 0
+
+

@@ -1,0 +1,64 @@
+/* Material UI Global Styles */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* 等宽字体样式 */
+.mono {
+  font-family: 'Courier New', Courier, monospace;
+}
+
+/* 文本截断 */
+.truncate {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+/* 响应式图片 */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* 平滑滚动 */
+html {
+  scroll-behavior: smooth;
+}
+
+/* 自定义滚动条 - 亮色模式 */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 1px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+/* 自定义滚动条 - 暗色模式 */
+@media (prefers-color-scheme: dark) {
+  ::-webkit-scrollbar-track {
+    background: #1a1a1a;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: #444;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: #666;
+  }
+}

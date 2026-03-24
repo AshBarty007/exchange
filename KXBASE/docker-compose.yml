@@ -1,0 +1,18 @@
+version: '3.8'
+
+services:
+  backend:
+    image: kx-backend:latest
+    volumes:
+      - /home/hqsk/fisco/nodes/127.0.0.1/sdk:/app/sdk
+      - /home/hqsk/KXBASE/deployed-contracts.json:/app/deployed-contracts.json
+    ports:
+      - "8080:8080"
+    container_name: backend
+
+  frontend:
+    build: ./frontend
+    container_name: frontend
+    restart: always
+    ports:
+      - "80:80"

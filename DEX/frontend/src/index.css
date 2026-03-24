@@ -1,0 +1,10 @@
+/* Minimal global overrides for recharts in dark theme */
+.recharts-cartesian-grid line { stroke: rgba(255,255,255,0.05) !important; }
+.recharts-text { fill: #545b6a !important; }
+.recharts-tooltip-wrapper .recharts-default-tooltip {
+  background: #121726 !important;
+  border: 1px solid rgba(255,255,255,0.08) !important;
+  border-radius: 8px !important;
+}
+.recharts-tooltip-item { color: #e4e8ef !important; }
+.recharts-legend-item-text { color: #8a919e !important; }

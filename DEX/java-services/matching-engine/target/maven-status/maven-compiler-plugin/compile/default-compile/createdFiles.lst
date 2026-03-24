@@ -1,0 +1,12 @@
+com/fisco/exchange/matching/engine/MarketMakerService.class
+com/fisco/exchange/matching/engine/MarketMakerService$MarketMaker.class
+com/fisco/exchange/matching/engine/OrderBook.class
+com/fisco/exchange/matching/model/Trade$TradeStatus.class
+com/fisco/exchange/matching/model/Order.class
+com/fisco/exchange/matching/MatchingEngineApplication.class
+com/fisco/exchange/matching/model/Order$OrderSide.class
+com/fisco/exchange/matching/model/Order$OrderStatus.class
+com/fisco/exchange/matching/controller/OrderController.class
+com/fisco/exchange/matching/model/Order$OrderType.class
+com/fisco/exchange/matching/engine/MatchingEngine.class
+com/fisco/exchange/matching/model/Trade.class

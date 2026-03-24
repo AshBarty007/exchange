@@ -1,0 +1,13 @@
+{
+  "contracts": {
+    "Auth": "0x6c65018a546123ccf8aab66d3a85e3af79518a6c",
+    "AccountStorage": "0xa645660d648a51b8ae0a28c7256c3d5f8d8b0f2a",
+    "FiatStorage": "0x8ac9988add56c5f15a103a8d3ae824a473d0d4b2",
+    "TicketStorage": "0x1ef0ae705385ef88c8d10556f8fc066a13158ae1",
+    "Account": "0x22a521c558d02200a255445d7e94ca9431d35ff9",
+    "FiatToken": "0xe34348f25541c8fe0040fb0f415f9967cc1263c0",
+    "Ticket": "0x8fce611560492151fde78c8f1cebcd719ee42124",
+    "Exchange": "0xf7f2e08023649b701f4642b69b149b6fb7d0a303",
+    "Router": "0x6cf2c794cd15e4cb2a7bf0ee6b19b00f349195f5"
+  }
+}
